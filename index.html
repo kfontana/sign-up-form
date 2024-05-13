@@ -50,7 +50,7 @@
 
         <div class="form-section">
           <p class="form-title">Let's do this!</p>
-          <form action="">
+          <form action="#" method="get">
             <div class="form-container">
               <div class="form-row-1">
                 <div class="form-first-name">
@@ -86,32 +86,33 @@
                 </div>
                 <div class="form-tel">
                   <label for="tel">PHONE NUMBER</label>
-                  <input type="tel" id="tel" name="tel" />
+                  <input type="tel" id="tel" name="tel"/>
                 </div>
               </div>
 
               <div class="form-row-3">
                 <div class="form-password">
                   <label for="password">PASSWORD</label>
-                  <input type="password" id="password" name="password" />
+                  <input type="password" id="password" name="password" required/>
                 </div>
-                <div class="form-confpassword">
+                <div class="form-conf-password">
                   <label for="password">CONFIRM PASSWORD</label>
                   <input
                     type="password"
                     id="con_password"
                     name="con_password"
+                    required
                   />
                 </div>
               </div>
-            </div>
-          </form>
+            </div>          
         </div>
 
         <div class="account">
           <button type="submit" class="btn-account">Create Account</button>
-          <p>Already have an account? <a href="">Log in</a></p>
+          <p>Already have an account? <a href="">Log in</a></p>        
         </div>
+      </form>
       </div>
     </div>
   </body>
