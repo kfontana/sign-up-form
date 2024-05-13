@@ -66,12 +66,12 @@ h1 {
 }
 
 .description {
-  width: 55%;
   padding: 50px;
 }
 
 .description p {
   margin-top: 20px;
+  width: 70%;
 }
 
 .form-section {
@@ -164,8 +164,6 @@ button {
 }
 
 .account {
-  height: 33%;
-  width: 75%;
   padding: 50px;
 }
 
