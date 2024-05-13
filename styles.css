@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url(assets/Norse-Bold.otf);
+}
+
+#main-container {
+  display: flex;
+  height: 100vh;
+}
+
+#left-column {
+  flex: 1;
+  background-image: url(assets/picture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+#right-column {
+  flex: 2;
+  background-color: rgb(248, 249, 250);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Norse-Bold";
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin-top: 120px;
+  height: 140px;
+}
+
+.h1-container {
+  align-self: center;
+  opacity: 1;
+}
+
+.img-container {
+  align-self: center;
+}
+
+.picture-credits {
+  margin-top: auto;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.picture-credits a {
+  color: white;
+}
+
+.description {
+  width: 55%;
+  padding: 50px;
+}
+
+.description p {
+  margin-top: 20px;
+}
+
+.form-section {
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.5);
+  padding: 50px;
+}
+
+.form-section form {
+  font-size: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row-1 {
+  display: flex;
+}
+
+.form-first-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-last-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row-2 {
+  display: flex;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-tel {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row-3 {
+  display: flex;
+}
+
+.form-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-confpassword {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  padding: 0px 0px 0px 10px;
+  color: rgb(88, 87, 87);
+}
+
+.form-title {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 300px;
+  padding: 10px 5px 10px 10px;
+  margin: 10px;
+  margin-top: 2px;
+  box-sizing: border-box;
+}
+
+.btn-account {
+  width: 220px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: 16px;
+  background-color: #596d48;
+  color: white;
+  padding: 15px 0px 15px 0px;
+  font-weight: bold;
+}
+
+.account {
+  height: 33%;
+  width: 75%;
+  padding: 50px;
+}
+
+.account p {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.account p a {
+  color: #596d48;
+  font-weight: 800;
+  text-decoration: none;
+}
